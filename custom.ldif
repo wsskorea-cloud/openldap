@@ -1,0 +1,95 @@
+version: 1
+
+dn: dc=wsskorea,dc=cloud
+objectClass: dcObject
+objectClass: organization
+dc: wsskorea
+o: wsskorea
+
+dn: o=development,dc=wsskorea,dc=cloud
+objectClass: organization
+objectClass: top
+o: development
+
+dn: o=staff,dc=wsskorea,dc=cloud
+objectClass: organization
+objectClass: top
+o: staff
+
+dn: ou=frontend,o=development,dc=wsskorea,dc=cloud
+objectClass: organizationalUnit
+objectClass: top
+ou: frontend
+
+dn: ou=backend,o=development,dc=wsskorea,dc=cloud
+objectClass: organizationalUnit
+objectClass: top
+ou: backend
+
+dn: ou=devops,o=development,dc=wsskorea,dc=cloud
+objectClass: organizationalUnit
+objectClass: top
+ou: devops
+
+dn: ou=qa,o=development,dc=wsskorea,dc=cloud
+objectClass: organizationalUnit
+objectClass: top
+ou: qa
+
+dn: ou=security,o=development,dc=wsskorea,dc=cloud
+objectClass: organizationalUnit
+objectClass: top
+ou: security
+
+dn: ou=design,o=development,dc=wsskorea,dc=cloud
+objectClass: organizationalUnit
+objectClass: top
+ou: design
+
+dn: ou=hr,o=staff,dc=wsskorea,dc=cloud
+objectClass: organizationalUnit
+objectClass: top
+ou: hr
+description: human resource
+
+dn: ou=ld,o=staff,dc=wsskorea,dc=cloud
+objectClass: organizationalUnit
+objectClass: top
+ou: ld
+description:: IGxhdyBkZXAu
+
+dn: ou=fa,o=staff,dc=wsskorea,dc=cloud
+objectClass: organizationalUnit
+objectClass: top
+ou: fa
+description: finance & accounting
+
+dn: ou=pr,o=staff,dc=wsskorea,dc=cloud
+objectClass: organizationalUnit
+objectClass: top
+ou: pr
+description: public relations
+
+dn: ou=cs,o=staff,dc=wsskorea,dc=cloud
+objectClass: organizationalUnit
+objectClass: top
+ou: cs
+description: customer satisfaction
+
+dn: cn=james1011,ou=backend,o=development,dc=wsskorea,dc=cloud
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: james1011
+sn:: 7J207KCc7J6E7Iqk
+displayName:: 7KCc7J6E7Iqk
+employeeNumber: 01010001
+mail: james1011@wsskorea.cloud
+mobile: +82 10-1234-1011
+o: development
+ou: backend
+postalCode: 04524
+street:: 7ISc7Jq47Yq567OE7IucIOykkeq1rCDshLjsooXrjIDroZwgMTEw
+uid: 01010001
+userPassword:: amFtZXMxMDExIQ==
