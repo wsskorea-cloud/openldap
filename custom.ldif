@@ -76,7 +76,7 @@ objectClass: top
 ou: cs
 description: customer satisfaction
 
-dn: cn=james1011,ou=backend,o=development,dc=wsskorea,dc=cloud
+dn: uid=james1011,dc=wsskorea,dc=cloud
 objectClass: inetOrgPerson
 objectClass: organizationalPerson
 objectClass: person
@@ -91,5 +91,5 @@ o: development
 ou: backend
 postalCode: 04524
 street:: 7ISc7Jq47Yq567OE7IucIOykkeq1rCDshLjsooXrjIDroZwgMTEw
-uid: 01010001
+uid: james1011
 userPassword:: amFtZXMxMDExIQ==
